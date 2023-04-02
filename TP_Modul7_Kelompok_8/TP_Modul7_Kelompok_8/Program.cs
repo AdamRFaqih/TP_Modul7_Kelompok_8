@@ -28,6 +28,11 @@ namespace TP_Modul7_Kelompok_8
             KuliahMahasiswa1302210101 kuliahmax = new KuliahMahasiswa1302210101();
             kuliahmax.readJSON();
 
+            Console.WriteLine();
+            Datamahasiswa1302210041 dataNasrul = new Datamahasiswa1302210041();
+            dataNasrul.readJSON();
+            KuliahMahasiswa1302210041 kuliahNasrul = new KuliahMahasiswa1302210041();
+            kuliahNasrul.readJSON();
         }
     }
 }
