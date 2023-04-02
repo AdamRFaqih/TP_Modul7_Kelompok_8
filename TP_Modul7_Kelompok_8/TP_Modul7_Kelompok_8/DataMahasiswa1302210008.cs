@@ -10,7 +10,7 @@ namespace TP_Modul7_Kelompok_8
 		{
 		}
 
-		string text = File.ReadAllText("/Users/adamrafiffaqih/Documents/Personal/Kuliah/KPL/TP/TP_Modul7_Kelompok_8/TP_Modul7_Kelompok_8/TP_Modul7_Kelompok_8/tp7_1_1302210008.json");
+		string text = File.ReadAllText(@"./tp7_1_1302210008.json");
 
 		public void readJSON()
 		{
