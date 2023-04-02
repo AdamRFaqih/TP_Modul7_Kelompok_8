@@ -1,3 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
+﻿namespace TP_Modul7_Kelompok_8
+{
+	class Program
+	{
+		public static void Main()
+		{
+			DataMahasiswa1302210008 data = new DataMahasiswa1302210008();
+			data.readJSON();
+		}
+	}
+}
