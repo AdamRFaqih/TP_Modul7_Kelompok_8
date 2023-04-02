@@ -9,7 +9,10 @@ namespace TP_Modul7_Kelompok_8
             data.readJSON();
             KuliahMahasiswa1302210008 kuliah = new KuliahMahasiswa1302210008();
             kuliah.readJSON();
-            
+
+            Console.WriteLine();
+            KuliahMahasiswa1302210014 kuliahIsa = new KuliahMahasiswa1302210014();
+            kuliahIsa.readJSON();
         }
     }
 }
